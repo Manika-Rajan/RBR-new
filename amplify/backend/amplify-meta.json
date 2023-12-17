@@ -1,0 +1,59 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rbr-dev-155915-authRole",
+      "UnauthRoleArn": "arn:aws:iam::922250156832:role/amplify-rbr-dev-155915-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::922250156832:role/amplify-rbr-dev-155915-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-rbr-dev-155915-deployment",
+      "UnauthRoleName": "amplify-rbr-dev-155915-unauthRole",
+      "StackName": "amplify-rbr-dev-155915",
+      "StackId": "arn:aws:cloudformation:us-east-1:922250156832:stack/amplify-rbr-dev-155915/22b00510-9cc7-11ee-95b9-0ac7801395a7",
+      "AmplifyAppId": "d1uq15cw8fpf4o"
+    }
+  },
+  "auth": {
+    "rbr4633b3c8": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "PHONE_NUMBER"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-rbr-dev-155915-deployment/amplify-cfn-templates/auth/rbr4633b3c8-cloudformation-template.json",
+        "logicalId": "authrbr4633b3c8"
+      },
+      "lastPushTimeStamp": "2023-12-17T10:42:20.936Z",
+      "output": {
+        "CreatedSNSRole": "arn:aws:iam::922250156832:role/sns4633b3c8155915-dev",
+        "UserPoolId": "us-east-1_2A3k8Oymn",
+        "AppClientIDWeb": "5bdb97ubdphvgavgdqbri8d74c",
+        "AppClientID": "5veivjnpk7l078fteocvuqia5s",
+        "IdentityPoolId": "us-east-1:a4380a00-f253-4c0b-96b9-5be038f6596c",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:922250156832:userpool/us-east-1_2A3k8Oymn",
+        "IdentityPoolName": "rbr4633b3c8_identitypool_4633b3c8__dev",
+        "UserPoolName": "rbr4633b3c8_userpool_4633b3c8"
+      },
+      "lastPushDirHash": "BGlOL7+9CKCPMnchjlhAG1Q9GMg="
+    }
+  }
+}
